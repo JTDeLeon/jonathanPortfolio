@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    min-height: 500px;
+    margin: 0;
+}
+
+.mauto {
+    margin: auto;
+}
+
+.navBar {
+    /* background: rgb(11, 16, 212); */
+    background: rgb(0, 22, 221);
+    color: white;
+}
+
+.contain {
+    max-width: 800px;
+    margin: auto;
+}
+
+.navContainer {
+    max-width: 800px;
+    display: flex;
+    background: lightgrey;
+    justify-content: space-between;
+    /* background: rgb(11, 16, 212); */
+    background: rgb(0, 22, 221);
+    color: white;
+    margin: auto;
+}
+
+.logo {
+    width: 10rem;
+}
+
+.links {
+    display: flex;
+    height: 0px;
+    overflow: hidden;
+    background: #0b10d4;
+    color: white;
+    text-align: center;
+}
+
+.link {
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    
+}
+.links p:hover {
+    /* margin: auto 10px; */
+    background: rgba(89, 182, 219, 0.63);
+}
+
+.menu {
+    margin: auto 10px;
+    cursor: pointer;
+    fill: white;
+}
+
+.show-menu {
+    height: 300px;
+    transition: height 1s;
+}
+
+.mob-link {
+    flex-direction: column;
+    transition: height 1s;
+}
+
+.header {
+    background: rgb(0, 22, 221);
+    color: white;
+    height: 500px;
+    display: flex;
+}
+
+.bio {
+    min-height: 500px;
+    background: rgb(11, 16, 212);
+}
+
+.bio-contain {
+    display: flex;
+    color: white;
+    height: 100%;
+}
+
+.bio-contain .left {
+    width: 70%;
+    padding: 10px 50px 10px 0px;
+}
+
+.bio-contain .right {
+    width: 30%;
+    display: flex;
+}
+@media only screen and (max-width: 600px) {
+    .bio-contain {
+        flex-direction: column;
+    }
+
+    .bio-contain .right {
+        width: 100%;
+    }
+    
+}
+
+.bio-title {
+    font-size: 47px;
+}
+
+ul li {
+    font-size: 25px;
+    margin: 20px 0px;
+}
+
+ul {
+	position: relative;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1.2em;
+}
+ul li:before {
+	content: "+";
+	position: absolute;
+	left: 0;
+}
+
+.CTA {
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    border-bottom: 3px solid white;
+}
